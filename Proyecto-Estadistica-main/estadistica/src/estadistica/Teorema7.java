@@ -13,7 +13,7 @@ public class Teorema7 extends javax.swing.JFrame {
     public Teorema7() {
         initComponents();
         setLocationRelativeTo(null);
-        ImageIcon imagen = new ImageIcon("C:\\Users\\Lenovo\\Desktop\\teorema.png");
+        ImageIcon imagen = new ImageIcon("C:\\Users\\Lenovo\\Desktop\\teoremas\\teorema7.png");
         Icon icono=new ImageIcon(imagen.getImage().getScaledInstance(lblFondo.getWidth(),lblFondo.getHeight(),Image.SCALE_DEFAULT));
         lblFondo.setIcon(icono);
         this.repaint();
