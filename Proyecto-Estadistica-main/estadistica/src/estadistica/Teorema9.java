@@ -221,6 +221,8 @@ public class Teorema9 extends javax.swing.JFrame {
         num2.setText("");
         
         resultado.setText("");
+        resultado2.setText("");
+        resultado1.setText("");
     }//GEN-LAST:event_jButton2ActionPerformed
 
     /**
