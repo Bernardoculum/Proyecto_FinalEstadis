@@ -15,13 +15,10 @@ public class Teorema10 extends javax.swing.JFrame {
     int n1,n2,n3,n4,resul,resul2;
     public Teorema10() 
     {
-        this.setContentPane(fondo);
+        
         initComponents();
         setLocationRelativeTo(null);
-        ImageIcon imagen = new ImageIcon("C:\\Users\\Admin\\Desktop\\teoremas\\teorema10.png");
-        Icon icono=new ImageIcon(imagen.getImage().getScaledInstance(jLabel6.getWidth(),jLabel6.getHeight(),Image.SCALE_DEFAULT));
-        jLabel6.setIcon(icono);
-        this.repaint();
+     
     }
 
     @SuppressWarnings("unchecked")

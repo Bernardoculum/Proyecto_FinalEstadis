@@ -25,9 +25,7 @@ public class Teorema12 extends javax.swing.JFrame {
         this.setContentPane(fondo);
         initComponents();
         setLocationRelativeTo(null);
-        ImageIcon imagen = new ImageIcon("C:\\Users\\Admin\\Desktop\\teoremas\\teorema122.png");
-        Icon icono=new ImageIcon(imagen.getImage().getScaledInstance(jLabel9.getWidth(),jLabel9.getHeight(),Image.SCALE_DEFAULT));
-        jLabel9.setIcon(icono);
+       
         this.repaint();
         
     }
